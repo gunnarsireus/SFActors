@@ -9,7 +9,7 @@ using Microsoft.ServiceFabric.Services.Runtime;
 
 namespace SubscribingToRelayStatefulService
 {
-	[EventSource(Name = "MyCompany-MyServiceFabricApp-SubscribingToRelayStatefulService")]
+	[EventSource(Name = "MyCompany-SFActors-SubscribingToRelayStatefulService")]
 	internal sealed class ServiceEventSource : EventSource
 	{
 		public static readonly ServiceEventSource Current = new ServiceEventSource();

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "MyServiceFabricApp", "MyServiceFabricApp\MyServiceFabricApp.sfproj", "{26672E0C-A08A-47E9-A097-F58157992D39}"
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SFActors", "MyServiceFabricApp\SFActors.sfproj", "{26672E0C-A08A-47E9-A097-F58157992D39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishingActor", "PublishingActor\PublishingActor.csproj", "{4E31404A-F896-45A0-B8F0-360C4E2F5732}"
 EndProject
@@ -138,5 +138,8 @@ Global
 		{3E870BE2-6DBD-48ED-A6D0-58FDC93A8C2A} = {046CF58A-E05F-4BE3-8F4F-76E14EC6389D}
 		{AE7F64D6-D4B4-4320-8415-D8A3D0D6C1DC} = {90F5DC3F-1A65-4C64-9071-13392D8D8176}
 		{4FED836F-72EE-4094-9D6D-79FBBFD06C7E} = {85FFC245-2F7D-47DA-A6C7-E1C57AB08CA0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536490C6-82C7-4EAB-9624-F5447C80F722}
 	EndGlobalSection
 EndGlobal

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SubscribingStatelessService
 {
-	[EventSource(Name = "MyCompany-MyServiceFabricApp-SubscribingStatelessService")]
+	[EventSource(Name = "MyCompany-SFActors-SubscribingStatelessService")]
 	internal sealed class ServiceEventSource : EventSource
 	{
 		public static ServiceEventSource Current = new ServiceEventSource();

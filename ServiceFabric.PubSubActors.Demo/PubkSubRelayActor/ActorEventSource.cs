@@ -9,7 +9,7 @@ using Microsoft.ServiceFabric.Actors.Runtime;
 
 namespace PubkSubRelayActor
 {
-	[EventSource(Name = "Xpirit-MyServiceFabricApp-PubkSubRelayActor")]
+	[EventSource(Name = "Xpirit-SFActors-PubkSubRelayActor")]
 	internal sealed class ActorEventSource : EventSource
 	{
 		public static readonly ActorEventSource Current = new ActorEventSource();

@@ -10,7 +10,7 @@ using Microsoft.ServiceFabric.Actors.Runtime;
 
 namespace PublishingActor
 {
-	[EventSource(Name = "MyCompany-MyServiceFabricApp-PublishingActor")]
+	[EventSource(Name = "MyCompany-SFActors-PublishingActor")]
 	internal sealed class ActorEventSource : EventSource
 	{
 		public static ActorEventSource Current = new ActorEventSource();

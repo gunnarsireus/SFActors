@@ -21,7 +21,7 @@ namespace TestClient
 	{
 		static void Main(string[] args)
 		{
-			var applicationName = "fabric:/MyServiceFabricApp";
+			var applicationName = "fabric:/SFActors";
 			var serviceName = $"{applicationName}/PublishingStatelessService";
 			var pubActor = GetPublishingActor(applicationName);
 			var pubService = GetPublishingService(new Uri(serviceName));
@@ -98,7 +98,7 @@ namespace TestClient
 			{
 				try
 				{
-					proxy = ServiceProxy.Create<ISubscribingStatelessService>(new Uri("fabric:/MyServiceFabricApp/SubscribingStatelessService"),
+					proxy = ServiceProxy.Create<ISubscribingStatelessService>(new Uri("fabric:/SFActors/SubscribingStatelessService"),
 						listenerName: "StatelessFabricTransportServiceRemotingListener");
 				}
 				catch
